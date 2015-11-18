@@ -2,7 +2,7 @@ package fr.iutvalence.info.dut.m3105.labyrinthGame;
 
 import java.util.Random;
 
-public class LesserDumbBotArtificialIntelligence implements RobotArtificialIntelligence
+public class LesserDumbBotArtificialIntelligence extends RobotArtificialIntelligence
 {
 	private boolean isBlocked;
 	
@@ -46,4 +46,6 @@ public class LesserDumbBotArtificialIntelligence implements RobotArtificialIntel
 	{
 		this.isBlocked = !hasMoved;
 	}
+
+	
 }
